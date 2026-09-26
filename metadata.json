@@ -1,0 +1,6 @@
+{
+  "name": "Maha Pakwan House",
+  "description": "Karachi-based premium frozen and ready-to-cook food specialist featuring samosas, rolls, wontons, kababs, and lunch deals with easy WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
