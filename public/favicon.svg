@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient: Deep Regal Karachi Burgundy -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4E0C17" />
+      <stop offset="50%" stop-color="#36060E" />
+      <stop offset="100%" stop-color="#200308" />
+    </linearGradient>
+
+    <!-- Metallic Gold Gradient -->
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF3C4" />
+      <stop offset="25%" stop-color="#F5DC92" />
+      <stop offset="60%" stop-color="#D4AF37" />
+      <stop offset="85%" stop-color="#B38924" />
+      <stop offset="100%" stop-color="#8F6A13" />
+    </linearGradient>
+
+    <!-- Gold Border Gradient -->
+    <linearGradient id="borderGold" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A17718" />
+      <stop offset="30%" stop-color="#F5DC92" />
+      <stop offset="70%" stop-color="#D4AF37" />
+      <stop offset="100%" stop-color="#FFF6D1" />
+    </linearGradient>
+
+    <!-- Shadow for depth -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.65" />
+    </filter>
+  </defs>
+
+  <!-- Outer Rounded Squircle Container -->
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="url(#bg)" stroke="url(#borderGold)" stroke-width="16" />
+
+  <!-- Inner subtle thin accent rim -->
+  <rect x="42" y="42" width="428" height="428" rx="88" fill="none" stroke="#F5DC92" stroke-width="2" opacity="0.35" />
+
+  <!-- Chef Hat Accent Motif (Maha Pakwan hallmark) -->
+  <g fill="url(#gold)" filter="url(#shadow)" transform="translate(0, -6)">
+    <!-- Base band -->
+    <path d="M216 138 C216 135 220 133 226 133 L286 133 C292 133 296 135 296 138 L293 148 C293 150 290 152 284 152 L228 152 C222 152 219 150 219 148 Z" />
+    <!-- Hat puffs -->
+    <path d="M224 131 C210 128 200 114 205 100 C210 87 225 82 233 87 C237 73 252 64 266 68 C278 72 284 83 283 91 C295 86 307 94 308 107 C309 119 299 129 288 131 Z" />
+  </g>
+
+  <!-- MPK Monogram Custom Bold Vector Glyphs -->
+  <g fill="url(#gold)" filter="url(#shadow)">
+    <!-- Letter M -->
+    <path d="M 72,364 L 72,188 L 108,188 L 146,298 L 184,188 L 220,188 L 220,364 L 186,364 L 186,242 L 157,326 L 135,326 L 106,242 L 106,364 Z" />
+
+    <!-- Letter P -->
+    <path d="M 238,364 L 238,188 L 298,188 C 326,188 344,204 344,233 C 344,262 326,278 298,278 L 272,278 L 272,364 Z M 272,218 L 272,248 L 296,248 C 306,248 312,242 312,233 C 312,224 306,218 296,218 Z" />
+
+    <!-- Letter K -->
+    <path d="M 362,364 L 362,188 L 396,188 L 396,260 L 442,188 L 484,188 L 426,274 L 488,364 L 444,364 L 396,292 L 396,364 Z" />
+  </g>
+
+  <!-- Flourish underline with centerpiece -->
+  <g fill="url(#gold)" opacity="0.9">
+    <path d="M 148,394 Q 256,412 364,394 Q 256,402 148,394 Z" />
+    <circle cx="256" cy="406" r="5" />
+  </g>
+</svg>
